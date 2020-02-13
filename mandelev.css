@@ -1,0 +1,197 @@
+@media screen and (max-width: 1650px){
+
+    .bloc1{
+        font-size: 75%;
+    }     
+}
+@media screen and (max-width: 1290px){
+
+    .bloc1{
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+
+    .bloc1{
+        font-size: 25%;
+    }
+
+}
+
+@media screen and (max-width: 930px){
+
+        .bloc1{
+         font-size: 5px   ;
+
+        } 
+}
+@media screen and (max-width: 600px){
+
+    .bloc1{
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width: 390px){
+
+    .bloc1{
+        font-size: 2px;
+    }
+    
+}
+
+
+
+
+
+    
+
+
+
+
+
+body{   
+    background-color:black;    
+} 
+
+.container { 
+    display:flexbox;
+    flex-direction: column;    
+}
+   
+.tof{
+    box-shadow: honeydew 5px;
+    width: 150%;
+   
+ }
+
+ .bloc1{
+    display: grid;
+    grid-template-columns: repeat(16,auto) 5%;
+    margin:0 auto;
+    max-width: 100%;
+    background-color: aliceblue; 
+    grid-area: auto; 
+    margin: 20px;
+    padding: 10px;
+    }
+
+/*          TEXTE          */
+    h1{
+        color:white
+    }
+
+/*      SQUARE & COLOR    */
+
+.purple1{
+    border: 1px white  solid;
+    text-align: center;
+    background-color: rgb(158, 144, 223);
+    grid-column-start: 1;
+}
+
+.purple{
+    
+    border: 3px white  solid;
+    text-align: center;
+    background-color: rgb(158, 144, 223);
+}
+
+.blue1{
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(79, 134, 179);
+    grid-column-start: -1;
+}
+
+.blue{
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(79, 134, 179);
+
+}
+.yellowbo{
+    border: 1px white solid;
+    text-align: center;
+    background-color: rgb(248, 252, 44);
+    grid-column-start: -6;
+
+}
+.yellow1{
+    border: 1px white solid;
+    text-align: center;
+    background-color: rgb(243, 208, 7);
+
+}
+
+.yellow2{
+    border: 1px   white  solid;
+    text-align: center;
+    background-color: rgb(248, 252, 44);
+
+}
+
+.green{
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(165, 238, 183);
+}
+
+.teal{
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(84, 170, 170);
+
+}
+
+.orangeal{
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(245, 159, 0);
+    grid-column-start: -6;
+
+}
+.orange1{
+    border: 1px  white  solid;
+    text-align: center;
+    background-color: rgb(245, 110, 0);
+    
+}
+
+.orange2{
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(245, 159, 0);
+
+}
+.red1{
+    margin-top:  50px;
+    border: 1px white solid;
+    text-align: center;
+    background-color: rgb(212, 112, 120);
+    grid-column-start: 3 ;
+
+}
+.red{
+    margin-top:  50px;
+    border: 1px white solid;
+    text-align: center;
+    background-color: rgb(212, 112, 120);
+
+}
+
+.rose1{
+   
+    border: 1px white solid;
+    text-align: center;
+    background-color: rgb(143, 62, 116);
+    grid-column-start: 3;
+}
+.rose{
+    grid-row-gap:10px;
+    border: 1px  white solid;
+    text-align: center;
+    background-color: rgb(143, 62, 116);
+}
